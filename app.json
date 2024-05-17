@@ -31,6 +31,12 @@
     },
     "plugins": [
       "expo-router",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Permettre Takk Jokk à acceder a ma localisation"
+        }
+      ],
       "expo-secure-store",
       [
         "expo-secure-store",
