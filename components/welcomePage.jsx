@@ -9,7 +9,7 @@ export default function WelcomePage(params) {
             <Text className="text-2xl font-bold text-primary">Bienvenue sur Takk Jokk</Text>
             <Text className="text-lg w-full text-center  text-accent">Deplacez vous en toute confiance avec votre application de covoiturage sénégalais !   </Text>
         
-      <TouchableOpacity className="p-3 bg-secondary w-full rounded-full " onPress={()=> router.push("/(auth)/login")}>
+      <TouchableOpacity className="p-3 bg-secondary w-full rounded-full " onPress={()=> router.push("/(home)/")}>
             <Text className="text-center text-2xl text-[#fff]">Commencer</Text>
         </TouchableOpacity>
         
