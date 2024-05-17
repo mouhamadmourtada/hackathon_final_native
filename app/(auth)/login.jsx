@@ -9,7 +9,7 @@ import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view
 import Colors from '../../constants/Colors';
 import {router} from "expo-router"
 import SecureStorageService  from '../../services/store';
-// import SignInWith from '../../components/SignInWith';
+import SignInWith from '../../components/SignInWith';
 
 /*
 import React, { useState } from 'react';
@@ -110,6 +110,7 @@ const login = () => {
       <KeyboardAwareScrollView enableOnAndroid={true}
           contentContainerStyle={styles.scrollContent}
           extraScrollHeight={-100}
+          className="h-screen bg-red-400"
       >
           {false ? 
               <Loader/>
@@ -164,7 +165,7 @@ const login = () => {
               <ButtonMain icon="login" title="CONNEXION" onPress={seconnecter}></ButtonMain>
 
 
-              {/* <SignInWith/> */}
+              <SignInWith/>
 
               <Pressable style = {{flexDirection : 'row', justifyContent : 'center', alignItems :'center'}} onPress = {creeCompte}>
               <Text style = {{fontWeight : 500, color : Colors.second100}}>Nouveau? </Text>

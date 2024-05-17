@@ -39,7 +39,7 @@ const _layout = () => {
         </View>
          */}
 
-        <Slot  />
+        <Slot />
 
     </View>
   )
