@@ -534,7 +534,7 @@ export default function MapPage(params) {
                 <Text
                   style={{ color: "black", fontSize: 18, fontWeight: "bold" }}
                 >
-                  Prénom et nom du chauffeur{" "}
+                  Nom du chauffeur
                 </Text>
                 <Text style={{ color: "black", fontSize: 18 }}>
                   Modou Dieng
@@ -557,14 +557,6 @@ export default function MapPage(params) {
                   Prix du trajet{" "}
                 </Text>
                 <Text style={{ color: "black", fontSize: 18 }}>2000 FCFA</Text>
-              </View>
-              <View className="flex flex-row justify-between w-full">
-                <Text
-                  style={{ color: "black", fontSize: 18, fontWeight: "bold" }}
-                >
-                  Nombre de co-passagers{" "}
-                </Text>
-                <Text style={{ color: "black", fontSize: 18 }}>2</Text>
               </View>
               <View className="flex flex-row justify-between w-full">
                 <Text
